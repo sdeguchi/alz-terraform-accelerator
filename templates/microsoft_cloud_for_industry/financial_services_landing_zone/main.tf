@@ -32,7 +32,7 @@ module "bootstrap" {
 }
 
 module "custom_exemption" {
-  source = "../modules/policy_exemption"
+  source = "../modules/policy_exemptions"
 
   policy_exemptions = local.custom_policy_exemptions
 
